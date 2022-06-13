@@ -14,7 +14,7 @@ body {
   padding-right: 2rem;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 1px;
   height: 55px;
-    margin-top: 7px;
+  margin-top: 7px;
 }
 
 .navbar-container-one ul,
@@ -45,7 +45,6 @@ body {
   color: #404040;
   cursor: pointer;
 }
-
 .navbar-container-two ul li .signin {
   background-color: #4683ec;
   border: none;
@@ -53,7 +52,6 @@ body {
   color: white;
   cursor: pointer;
 }
-
 .navbar-container-one ul li a:hover,
 .navbar-container-two ul li a:hover {
   text-decoration: underline;
@@ -81,13 +79,11 @@ body {
   width: 32px;
   height: 32px;
 }
-
 #user-initial {
   width: 100%;
   text-align: center;
   color: #FFF;
-  float:right;
-  
+  float:right; 
 }
 .example input[type=text] {
   padding: 10px;
@@ -99,24 +95,22 @@ body {
   margin-top: 50px;
   border-radius: 5px;
   margin-left: 55px;
-
 }
-
 .example button {
-    margin-left: 60px;
-    float: left;
-    width: 5%;
-    padding-left: 60px;
-    top: -40px;
-    padding: 9px;
-    background: white;
-    color: gray;
-    font-size: 17px;
-    border: 1px solid white;
-    border-left: none;
-    cursor: pointer;
-    z-index: 6;
-    position: relative;
+  margin-left: 60px;
+  float: left;
+  width: 5%;
+  padding-left: 60px;
+  top: -40px;
+  padding: 9px;
+  background: white;
+  color: gray;
+  font-size: 17px;
+  border: 1px solid white;
+  border-left: none;
+  cursor: pointer;
+  z-index: 6;
+  position: relative;
 }
 .navbar-container-one li{
   margin-left: 20px;
@@ -136,8 +130,6 @@ body {
 input:focus {
   outline: none;
   box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
-  
-  
 }
  .navbar-container-two ul {
   list-style-type: none;
@@ -154,19 +146,15 @@ input:focus {
   position: absolute;
 }
 .sidebar {
- 
   width: 246px;
   position: fixed;
   padding-top: 10px;
-  
   }
-  
   .sidebar div {
   padding: 8px;
   font-size: 18px;
   display: block;
   }
-  
   .body-text {
   margin-left: 150px;
   font-size: 18px;
@@ -189,13 +177,10 @@ input:focus {
 
   }
   .sidebar span{
-   
     margin-top: 6px;
     margin-left: 0px;
     color: gray;
     font-size: 20px;
-    
-
   }
   ul {
     list-style-type: none;
@@ -240,15 +225,13 @@ span.material-icon{
 }
 .meeting-bar{
   position:absolute;
-  margin-top: 200px;
+  margin-top: 220px;
   width: 246px;
   padding-top: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 1px;
   list-style-type: none;
   margin-left: 10px;
-
 }
-
 .meeting-bar ul{
   margin: 0;
   padding: 0;
@@ -276,7 +259,6 @@ span.material-icon{
   color: #202124;
   text-shadow: none;
 }
-
 .middle-bar{
   margin-left:246px ;
   padding: 0;
@@ -285,7 +267,6 @@ span.material-icon{
   flex-direction: row;
   box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2);
 }
-
 .dropdown {
   position: relative;
   display: inline;
@@ -296,9 +277,7 @@ span.material-icon{
   padding-top: 10px;
   padding-right: 50px;
 }
-
 .dropdown-content {
-  
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -307,20 +286,17 @@ span.material-icon{
   padding: 12px 16px;
   z-index: 1;
 }
-
 .dropdown:hover .dropdown-content {
   display: block;
   margin-left: 74px;
 }
 .down {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  
+transform: rotate(45deg);
+-webkit-transform: rotate(45deg); 
 }
 .dropdown-content a{
   text-decoration: none;
   color: #202124;
-
 }
 .arrow {
   border: solid black;
@@ -334,13 +310,11 @@ span.material-icon{
   align-items: center;
   height: 40px;
   display: inline;
-
   display: flex;
   align-items: center;
   list-style-type: none;
   margin-left: 0px;
   margin-top: 20px;
- 
 }
 ul .mb-head{
  margin-left: 0px;
@@ -351,29 +325,21 @@ ul .mb-head{
 #mb-right{
   float: right;
   height: 40px;
-  
- 
-
   display: flex;
   align-items: center;
-
   margin: 0;
   padding: 0;
-      margin-left: 644px;
-      margin-top: 20px;
- 
-  
+  margin-left: 644px;
+  margin-top: 20px; 
 }
 #mb-right img{
   width: 10px;
 }
 ul #mb-right{
- 
   display: inline;
   float: right;
 }
 #mb-right li{
   margin-left: 30px;
   display: inline;
-  
 }

@@ -4,7 +4,7 @@
     <title>Inbox</title>
     <link rel="icon" type="image/x-icon" href="images/gmail-icon.png">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
@@ -18,7 +18,7 @@
             			<li><form class="example">
               			<input type="text" placeholder="Search.." name="search">
              			<button type="submit"><i class="fa fa-search"></i>
-						<div class="option-icon"><img src="images/slider.png" alt=""></div>
+					<!--<div class="option-icon"><img src="images/slider.png" alt=""></div>-->	
 						</button>
               			
             			</form></li>
@@ -34,106 +34,94 @@
         	</div>
       		</navbar>
     </header>
-    <div class="sidebar">
-      	<div><button class="btn"><img src="images/plus-icon.png" class="plus-image" >Compose</button></div>
-      		<div class="side-box">
-        		<ul>
-          			<li><span class="material-icons"> inbox </span><a href="#">Inbox</a></li>
-          			<li><span class="material-icons"> star </span><a href="#">Star</a></li>
-          			<li><span class="material-icons"> access_time_filled </span><a href="#">Snoozed</a></li>
-          			<li><span class="material-icons"> send </span><a href="#">Sent</a></li>
-          			<li><span class="material-icons"> note </span><a href="#">Drafts</a></li>
-          			<li><span class="material-icons"> list </span><a href="#">Lists</a></li>
-          		</ul>
-      		</div>
-      		<div class="meeting-bar">
-        		<li><span class="material-icons"> videocam</span><a href="#">New meeting</a></li>
-        		<li><span class="material-icons"> keyboard </span><a href="#">Join a meeting</a></li>
-    		</div>
-      	</div>
-        <div class="middle-bar">
-        	<div class="mb-head">
-              		<div class="dropdown">
-                		<div class="checkbox">
-                  			<ul>
-                    				<li>
-							<label><input type="checkbox">
-                                                		<img src="images/arrow.png" alt="">
-                  					</label>
-             			 </div>
-              			<div class="dropdown-content">
-                  			<ul class="dropdown-menu" role="menu">
-                    				<li><a href="#">All</a></li>
-                    				<li><a href="#">None</a></li>
-                    				<li><a href="#">Read</a></li>
-                    				<li><a href="#">Unread</a></li>
-                    				<li><a href="#">Starred</a></li>
-                    				<li><a href="#">Unstarred</a></li>
-                			</ul>
-                		</div>
-              		</div>
-        		<li><img src="images/refreshing.png" alt=""></li>
-                	<li><img src="images/menu-vertical.png" alt=""></li>
-              		</ul>
-            	</div>
-          	<div id="mb-right">
-                	<ul> 
-				<li><img src="images/left-arrow.png" alt=""></li>
-                  		<li><img src="images/right-arrow.png" alt=""></li></ul>
-                  		<li><span class="material-icons"> keyboard </span></li>
+	<div class="main-bar">
+	<div class="sidebar">
+		<div>
+			<button class="btn"><img src="images/plus-icon.png" class="plus-image" >Compose</button>
+		</div>
+		<div class="side-box">
+			<ul>
+				<li><span class="material-icons"> inbox </span><a href="#">Inbox</a></li>
+				<li><span class="material-icons"> star </span><a href="#">Star</a></li>
+				<li><span class="material-icons"> access_time_filled </span><a href="#">Snoozed</a></li>
+				<li><span class="material-icons"> send </span><a href="#">Sent</a></li>
+				<li><span class="material-icons"> note </span><a href="#">Drafts</a></li>
+				<li><span class="material-icons"> list </span><a href="#">Lists</a></li>
+			</ul>
+		</div>
+		<div class="meeting-bar">Meeting
+			<li><span class="material-icons"> videocam</span><a href="#">New meeting</a></li>
+			<li><span class="material-icons"> keyboard </span><a href="#">Join a meeting</a></li>
+		</div>
+		<div class="sidebox3">Hangouts <br><br>
+			<span id="user-menu"><div id="user-initial">A</div></span>
+			<span class="name">Arjun </span>
+			<span class="material-icons"> arrow_drop_down</span>
+			&nbsp; &nbsp; &nbsp; &nbsp;
+			<span class="material-icons">  add</span>			
+				
+		</div>
+		
+	</div>
+	<div class="content-wrapper">
+	<div class="middle-bar">
+		<div class="left-bar">
+			<input type="checkbox"><img src="images/arrow.png" alt="">
+			<img class="bar-image1" src="images/refreshing.png" alt="">
+			<img class="bar-image2"src="images/menu-vertical.png" alt="">
+	</div>
+	<div class="right-bar">
+		<img class=""src="images/left-arrow.png" alt="">
+		<img class=""src="images/right-arrow.png" alt="">
+		<span class="material-icons"> keyboard </span>
+	</div>
+	</div>
+	<div class="clear"></div>
+		<div class="categories">
+			<div class="primary">
+				<span class="material-icons"> inbox</span>
+				<p>Primary</p>
 			</div>
-		
-    	</div>
-		<div class="middle-header">
-		<div class="sub-header">
-			<div class="primary-bar"><span class="material-icons"> inbox</span>Inbox</div>
-			<div class="social-bar"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>Social</div>
-			<div class="promotions-bar"><i class="material-icons loyalty"></i></span>Promotions</div>
+			<div class="social">
+				<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+				<p>Social</p>
+			</div>
+			<div class="promotion">
+				<i class="material-icons loyalty"></i>
+				<p>Promotions</p>
+			</div>
+		</div>
+		<div class="inbox">
+		<div class="mails">
+			<input type="checkbox">
+			<span class="material-icons"> star </span>
+			<p>Arjun Krishnakumar</p>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+			<p>Dignissimos provident iste laboriosam possimus deserunt ?</p>
+		</div>
+		<div class="mails">
+			<input type="checkbox">
+			<span class="material-icons"> star </span>
+			<p>Arjun Krishnakumar</p>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+			<p>Dignissimos provident iste laboriosam possimus deserunt ?</p>
+		</div>
+		<div class="mails">
+			<input type="checkbox">
+			<span class="material-icons"> star </span>
+			<p>Arjun Krishnakumar</p>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+			<p>Dignissimos provident iste laboriosam possimus deserunt ?</p>
 		</div>
 	</div>
-	<div class="tab-content">
-		<div class="checkbox2">
-			<label>
-				<input type="checkbox">
-				<span class="fa fa-star unchecked"></span>
-			</label>
-		</div>
-		<span class="name" style="min-width: 120px;display: inline-block;">Arjun Krishnakumar</span>
-		 <span class="message">This is big title</span>
-		<span class="text-message" style="font-size: 11px;">- Hi hello how r u ?</span> 
-		<span class="badge">12:10 AM</span> 
-		
-		
+</div>
+	<div class="addon-services">
+		<img src="images/icons8-google-calendar-48.png" alt="">
+		<img src="images/icons8-google-keep-48.png" alt="">
+		<img src="images/task-icon.png" alt="">
+		<img src="images/Google_Contacts_icon.png" alt="">
+		<img src="images/plus_icon2.png" alt="">
 	</div>
-	<div class="tab-content">
-		<div class="checkbox2">
-			<label>
-				<input type="checkbox">
-				<span class="fa fa-star unchecked"></span>
-			</label>
-		</div>
-		<span class="name" style="min-width: 120px;display: inline-block;">Arjun Krishnakumar</span>
-		 <span class="message">This is big title</span>
-		<span class="text-message" style="font-size: 11px;">- Hi hello how r u ?</span> 
-		<span class="badge">12:10 AM</span> 
 		
-		
-	</div>
-	<div class="tab-content">
-		<div class="checkbox2">
-			<label>
-				<input type="checkbox">
-				<span class="fa fa-star unchecked"></span>
-			</label>
-		</div>
-		<span class="name" style="min-width: 120px;display: inline-block;">Arjun Krishnakumar</span>
-		 <span class="message">This is big title</span>
-		<span class="text-message" style="font-size: 11px;">- Hi hello how r u ?</span> 
-		<span class="badge">12:10 AM</span> 
-		
-		
-	</div>
     </body>
 </html>
-
-

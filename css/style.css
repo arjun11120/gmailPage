@@ -306,14 +306,20 @@ span.material-icon{
 .right-bar{
   float: right;
 }
+.right-bar img{
+      width: 10px;
+
+}
 .middle-bar input,
 .middle-bar img,
 .middle-bar span{
   display: inline-block;
   padding: 10px;
 }
-.middle-bar input,.right-bar span{
-  vertical-align: super;
+.middle-bar input, .middle-bar img, .middle-bar span {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
 }
 .categories{
   width: 100%;

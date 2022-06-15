@@ -3,6 +3,7 @@ body {
   padding: 0;
   top: 0;
   font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  
 }
 .clear{
   clear:both;
@@ -316,6 +317,8 @@ span.material-icon{
 }
 .categories{
   width: 100%;
+  margin-top: 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 1px;
 }
 .categories .primary{
   display: inline-block;
@@ -336,18 +339,24 @@ span.material-icon{
 .categories p{
   display: inline;
   vertical-align: super;
+  font-size: 13px;
+  padding-left: 10px;
 }
 .mails{
   width: 100%;
   overflow: hidden;
   height: 30px;
   margin: 10px 0;
+  border-bottom: 1px solid #eeeeee;
 
 }
 .mails p{
   display: inline;
   vertical-align: super;
   padding: 3px 10px 3px 24px;
+}
+.mails input{
+  vertical-align: super;
 }
 .content-wrapper{
   width: 1100px;
@@ -365,4 +374,17 @@ span.material-icon{
 }
 .addon-services img:nth-child(5) {
   margin-top: 52px;
+}
+.mails h8{
+  font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+.mails h9{
+  font-size: 15px;
+  opacity: .7;
+}
+.mails h4{
+  float: right;
+  display: block;
+  margin: 8px;
+  font-size: 11px;
 }

@@ -1,130 +1,179 @@
 <html lang="en" dir="ltr">
-  <head>
+<head>
     <meta charset="utf-8" />
-    <title>Inbox</title>
+   	<title>Inbox</title>
     <link rel="icon" type="image/x-icon" href="images/gmail-icon.png">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/style.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <header>
-      	<navbar class="container">
-        	<div class="navbar-container-one">
-          		<ul>
-            			<li><img src="images/menu-icon.png" alt=""></li>
-            			<li><img src="images/logo_gmail.png" alt=""></li>
-            			<li><form class="example">
-              			<input type="text" placeholder="Search mail.." name="search">
-             			<button type="submit"><i class="fa fa-search"></i>
-					<!--<div class="option-icon"><img src="images/slider.png" alt=""></div>-->	
+	<link rel="stylesheet" href="assets/icon.css">
+</head>
+    <body>
+		<div class="container">
+			<div class="header">
+				<div class="left-header">
+					<img class="menu-icon" src="images/menu-icon.png" alt="">
+					<img src="images/logo_gmail.png" alt="">
+				</div>
+				<div class="middle-header">
+					<img class="search-icon" src="images/search.png" alt="">
+					<input type="text" class="form-control" placeholder="Search mails...">
+					<img class="option" id="option-icon" src="images/option.png" alt="">
+				</div>
+				<div class="right-header">
+					<img src="images/help-icon.png" alt="">
+					<img src="images/icons-settings.png" alt="">
+					<img id="dot-icon" src="images/dots-menu.png" alt="">
+            		<img id="user-icon" src="images/user-icon.png" alt="">
+				</div>
+			</div>
+			<!--header end-->
+			<div class="main-body">
+				<div class="main-sub">
+					<div class="button">
+						<button>
+							<div class="image">
+								<img src="images/plus-icon.png" class="plus-image">
+							</div>
+							<p>Compose</p>
 						</button>
-              			
-            			</form></li>
-         		 </ul>
-        	</div>
-        	<div class="navbar-container-two">
-          		<ul>
-            			<li><img class="help-icons"src="images/help-icon.png" alt=""></li>
-            			<li><span class="z1asCe E9hVAb"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.85 22.25h-3.7c-.74 0-1.36-.54-1.45-1.27l-.27-1.89c-.27-.14-.53-.29-.79-.46l-1.8.72c-.7.26-1.47-.03-1.81-.65L2.2 15.53c-.35-.66-.2-1.44.36-1.88l1.53-1.19c-.01-.15-.02-.3-.02-.46 0-.15.01-.31.02-.46l-1.52-1.19c-.59-.45-.74-1.26-.37-1.88l1.85-3.19c.34-.62 1.11-.9 1.79-.63l1.81.73c.26-.17.52-.32.78-.46l.27-1.91c.09-.7.71-1.25 1.44-1.25h3.7c.74 0 1.36.54 1.45 1.27l.27 1.89c.27.14.53.29.79.46l1.8-.72c.71-.26 1.48.03 1.82.65l1.84 3.18c.36.66.2 1.44-.36 1.88l-1.52 1.19c.01.15.02.3.02.46s-.01.31-.02.46l1.52 1.19c.56.45.72 1.23.37 1.86l-1.86 3.22c-.34.62-1.11.9-1.8.63l-1.8-.72c-.26.17-.52.32-.78.46l-.27 1.91c-.1.68-.72 1.22-1.46 1.22zm-3.23-2h2.76l.37-2.55.53-.22c.44-.18.88-.44 1.34-.78l.45-.34 2.38.96 1.38-2.4-2.03-1.58.07-.56c.03-.26.06-.51.06-.78s-.03-.53-.06-.78l-.07-.56 2.03-1.58-1.39-2.4-2.39.96-.45-.35c-.42-.32-.87-.58-1.33-.77l-.52-.22-.37-2.55h-2.76l-.37 2.55-.53.21c-.44.19-.88.44-1.34.79l-.45.33-2.38-.95-1.39 2.39 2.03 1.58-.07.56a7 7 0 0 0-.06.79c0 .26.02.53.06.78l.07.56-2.03 1.58 1.38 2.4 2.39-.96.45.35c.43.33.86.58 1.33.77l.53.22.38 2.55z"></path><circle cx="12" cy="12" r="3.5"></circle></svg></span></li>
-            			<li><i class="material-icons">apps</i></li>
-          	  		<li id="user-menu"><div id="user-initial">A</div></li>
-         		</ul>
-        	</div>
-      		</navbar>
-    </header>
-	<div class="main-bar">
-	<div class="sidebar">
-		<div>
-			<button class="btn"><img src="images/plus-icon.png" class="plus-image" >Compose</button>
-		</div>
-		<div class="side-box">
-			<ul>
-				<li><span class="material-icons"> inbox </span><a href="#">Inbox</a></li>
-				<li><span class="material-icons"> star </span><a href="#">Star</a></li>
-				<li><span class="material-icons"> access_time_filled </span><a href="#">Snoozed</a></li>
-				<li><span class="material-icons"> send </span><a href="#">Sent</a></li>
-				<li><span class="material-icons"> note </span><a href="#">Drafts</a></li>
-				<li><span class="material-icons"> list </span><a href="#">Lists</a></li>
-			</ul>
-		</div>
-		<div class="meeting-bar">Meeting
-			<li><span class="material-icons"> videocam</span><a href="#">New meeting</a></li>
-			<li><span class="material-icons"> keyboard </span><a href="#">Join a meeting</a></li>
-		</div>
-		<div class="sidebox3">Hangouts <br><br>
-			<span id="user-menu"><div id="user-initial">A</div></span>
-			<span class="name">Arjun </span>
-			<span class="material-icons"> arrow_drop_down</span>
-			&nbsp; &nbsp; &nbsp; &nbsp;
-			<span class="material-icons">  add</span>			
+					</div>
+					<!--button div end-->
+					<div class="side-box">
+						<ul>
+							<li><span class="material-icons"> inbox </span><a href="#">Inbox</a></li>
+							<li><span class="material-icons"> star </span><a href="#">Star</a></li>
+							<li><span class="material-icons"> access_time_filled </span><a href="#">Snoozed</a></li>
+							<li><span class="material-icons"> send </span><a href="#">Sent</a></li>
+							<li><span class="material-icons"> note </span><a href="#">Drafts</a></li>
+							<li><span class="material-icons"> list </span><a href="#">Lists</a></li>
+							<li><span class="material-icons">arrow_drop_down</span><a href="#">More</a></li>
+						</ul>
+					</div>
+					<div class="meeting-bar"><p>Meeting</p>
+						<ul>
+							<li><span class="material-icons"> videocam</span><a href="#">New meeting</a></li>
+							<li><span class="material-icons"> keyboard </span><a href="#">Join a meeting</a></li>
+						</ul>
+					</div>
+					<div class="sidebox3"><p>Hangouts</p>
+						<div class="hang-content">
+							<span id="user-menu"><img id="user-icon" src="images/user-icon.png" alt=""></span>
+							<span class="name">Arjun </span>
+							<span class="material-icons"> arrow_drop_down</span>
+							<span class="material-icons">  add</span>			
+						</div>	
+					</div>
+					
+
+				</div>
+				<!--Main sub end-->
+				<div class="mail-wrapper">
+					<div class="content-wrapper">
+						<div class="middle-bar">
+							<div class="left-bar">
+								<input type="checkbox"><img src="images/arrow.png" alt="">
+								<img class="bar-image1" src="images/refreshing.png" alt="">
+								<img class="bar-image2"src="images/menu-vertical.png" alt="">
+							</div>
+							<div class="right-bar">
+								<img class=""src="images/left-arrow.png" alt="">
+								<img class=""src="images/right-arrow.png" alt="">
+								<span class="material-icons"> keyboard </span>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<div class="categories">
+							<div class="primary">
+								<span class="material-icons"> inbox</span>
+								<p>Primary</p>
+							</div>
+							<div class="social">
+								<span class="material-icons"> <img src="images/group.png" alt=""></span>
+								<p>Social</p>
+							</div>
+							<div class="promotion">
+								<i class="material-icons loyalty"></i>
+								<p>Promotions</p>
+							</div>
+						</div>
+						<div class="inbox">
+							<div class="mails">
+								<input type="checkbox">
+								<span class="material-icons"> star </span>
+								<p>Arjun Krishnakumar</p>
+								<p><h8>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h8></p>
+								<p><h9>Dignissimos provident </h9></p>
+								<h4>5:35PM</h4>
+							</div>
+							<div class="mails">
+								<input type="checkbox">
+								<span class="material-icons"> star </span>
+								<p>Arjun Krishnakumar</p>
+								<p><h8>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h8></p>
+								<p><h9>Dignissimos provident </h9></p>
+								<h4>5:35PM</h4>
+							</div>
+							<div class="mails">
+								<input type="checkbox">
+								<span class="material-icons"> star </span>
+								<p>Arjun Krishnakumar</p>
+								<p><h8>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h8></p>
+								<p><h9>Dignissimos provident </h9></p>
+								<h4>5:35PM</h4>
+							</div>
+							<div class="mails">
+								<input type="checkbox">
+								<span class="material-icons"> star </span>
+								<p>Arjun Krishnakumar</p>
+								<p><h8>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h8></p>
+								<p><h9>Dignissimos provident </h9></p>
+								<h4>5:35PM</h4>
+							</div>
+							<div class="mails">
+								<input type="checkbox">
+								<span class="material-icons"> star </span>
+								<p>Arjun Krishnakumar</p>
+								<p><h8>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h8></p>
+								<p><h9>Dignissimos provident </h9></p>
+								<h4>5:35PM</h4>
+							</div>
+							<div class="mails">
+								<input type="checkbox">
+								<span class="material-icons"> star </span>
+								<p>Arjun Krishnakumar</p>
+								<p><h8>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h8></p>
+								<p><h9>Dignissimos provident </h9></p>
+								<h4>5:35PM</h4>
+							</div>
+							<div class="mails">
+								<input type="checkbox">
+								<span class="material-icons"> star </span>
+								<p>Arjun Krishnakumar</p>
+								<p><h8>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h8></p>
+								<p><h9>Dignissimos provident </h9></p>
+								<h4>5:35PM</h4>
+							</div>
+							<div class="mails">
+								<input type="checkbox">
+								<span class="material-icons"> star </span>
+								<p>Arjun Krishnakumar</p>
+								<p><h8>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h8></p>
+								<p><h9>Dignissimos provident </h9></p>
+								<h4>5:35PM</h4>
+							</div>
+						</div>
+					</div>
+				</div>	
+						<div class="addon-services">
+							<img src="images/icons8-google-calendar-48.png" alt="">
+							<img src="images/icons8-google-keep-48.png" alt="">
+							<img src="images/task-icon.png" alt="">
+							<img src="images/Google_Contacts_icon.png" alt="">
+							<img src="images/plus_icon2.png" alt="">
+						</div>
 				
-		</div>
-		
-	</div>
-	<div class="content-wrapper">
-	<div class="middle-bar">
-		<div class="left-bar">
-			<input type="checkbox"><img src="images/arrow.png" alt="">
-			<img class="bar-image1" src="images/refreshing.png" alt="">
-			<img class="bar-image2"src="images/menu-vertical.png" alt="">
-	</div>
-	<div class="right-bar">
-		<img class=""src="images/left-arrow.png" alt="">
-		<img class=""src="images/right-arrow.png" alt="">
-		<span class="material-icons"> keyboard </span>
-	</div>
-	</div>
-	<div class="clear"></div>
-		<div class="categories">
-			<div class="primary">
-				<span class="material-icons"> inbox</span>
-				<p>Primary</p>
+
 			</div>
-			<div class="social">
-				<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
-				<p>Social</p>
-			</div>
-			<div class="promotion">
-				<i class="material-icons loyalty"></i>
-				<p>Promotions</p>
-			</div>
+			<!--Main body end-->
 		</div>
-		<div class="inbox">
-		<div class="mails">
-			<input type="checkbox">
-			<span class="material-icons"> star </span>
-			<p>Arjun Krishnakumar</p>
-			<p><h8>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h8></p>
-			<p><h9>Dignissimos provident </h9></p>
-			<h4>5:35PM</h4>
-		</div>
-		<div class="mails">
-			<input type="checkbox">
-			<span class="material-icons"> star </span>
-			<p>Arjun Krishnakumar</p>
-			<p><h8>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h8></p>
-			<p><h9>Dignissimos provident </h9></p>
-			<h4>5:35PM</h4>
-		</div>
-		<div class="mails">
-			<input type="checkbox">
-			<span class="material-icons"> star </span>
-			<p>Arjun Krishnakumar</p>
-			<p><h8>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h8></p>
-			<p><h9>Dignissimos provident </h9></p>
-			<h4>5:35PM</h4>
-		</div>
-	</div>
-</div>
-	<div class="addon-services">
-		<img src="images/icons8-google-calendar-48.png" alt="">
-		<img src="images/icons8-google-keep-48.png" alt="">
-		<img src="images/task-icon.png" alt="">
-		<img src="images/Google_Contacts_icon.png" alt="">
-		<img src="images/plus_icon2.png" alt="">
-	</div>
-		
-    </body>
+	</body>
 </html>

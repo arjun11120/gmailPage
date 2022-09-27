@@ -72,21 +72,21 @@ html,body{
      opacity: .6;
      width: 24px;
 }
- #user-icon{
-     opacity: 1;
+.user-icon{
      border-radius: 50%;
-     width: 30px;
+     width: 30px !important;
 }
  #dot-icon{
      width: 20px;
 }
- .main-sub button{
+ .main-sub .cmp-button{
      padding: 0px 18px;
      display: flex;
      border-radius: 44px;
      background-color: white;
      box-shadow: 0px 2px 2px 1px rgba(82, 75, 75, 0.5);
      border: none;
+     width: 56%;
 }
  img.plus-image{
      vertical-align: middle;
@@ -112,14 +112,14 @@ html,body{
      padding: 15px 4px;
 }
  .main-sub li{
-     line-height: 15px;
+    padding-left: 20px;
+    line-height: 15px;
 }
  .side-box{
-     margin: 0px;
-     padding: 15px 15px;
-     overflow-y: scroll;
+     padding: 15px 0px;
      height: 200px;
      opacity: .7;
+      overflow-y: hidden;
 }
  ul ,li {
      list-style-type: none;
@@ -195,7 +195,7 @@ html,body{
      display: inline-block;
      width: 300px;
      color: red;
-     border-bottom: 3px solid #D93025;
+     border-bottom: 3px solid red;
 }
  .categories .social{
      display: inline-block;
@@ -211,12 +211,11 @@ html,body{
      font-size: 13px;
      padding-left: 10px;
 }
- .mails{
-     width: 100%;
-     overflow: hidden;
-     height: 30px;
-     margin: 10px 0;
-     border-bottom: 1px solid #eeeeee;
+ .mails{    
+display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    border-bottom: 1px solid #f1f1f1ab;
 }
  .mails p{
      display: inline;
@@ -241,28 +240,61 @@ html,body{
  .addon-services img:nth-child(5) {
      margin-top: 52px;
 }
- .mails h8{
+ .mails h6{
      font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
 }
- .mails h9{
-     font-size: 15px;
-     opacity: .7;
-}
- .mails h4{
-     float: right;
-     display: block;
-     margin: 8px;
-     font-size: 11px;
-}
+
  .social img{
      width: 20px;
-}
- .inbox{
-     margin: 15px;
 }
  .ml10{
      margin-left: 10px;
 }
  .ml30{
      margin-left: 100px;
+}
+ .mails h6{
+     font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+ .mails h6{
+     font-weight: 400;
+font-size: 15px;
+}
+ .mails h4{
+    margin: 4px 40px;
+    font-size: 11px;
+}
+ .social img{
+     width: 20px;
+}
+ .ml10{
+     margin-left: 10px;
+}
+ .ml30{
+     margin-left: 100px;
+}
+.ltc{
+color: #c1c1c1;
+font-size: 14px;
+}
+span.material-icons {
+    font-size: 20px;
+    color: #a0989b;
+}
+ltc2{
+color: #a0989b;
+}
+.cml{
+vertical-align: bottom;
+    border-radius: 50%;
+}
+.m10{
+    margin: 15px;
+}
+.pink{
+    background: #fbdfe3;
+    border-radius: 0px 20px 20px 0px;
+}
+.red{
+color: red !important;
 }

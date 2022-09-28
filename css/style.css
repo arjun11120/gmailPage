@@ -72,7 +72,7 @@ html,body{
      opacity: .6;
      width: 24px;
 }
-.user-icon{
+ .user-icon{
      border-radius: 50%;
      width: 30px !important;
 }
@@ -112,14 +112,14 @@ html,body{
      padding: 15px 4px;
 }
  .main-sub li{
-    padding-left: 20px;
-    line-height: 15px;
+     padding-left: 20px;
+     line-height: 15px;
 }
  .side-box{
      padding: 15px 0px;
      height: 200px;
      opacity: .7;
-      overflow-y: hidden;
+     overflow-y: hidden;
 }
  ul ,li {
      list-style-type: none;
@@ -211,11 +211,11 @@ html,body{
      font-size: 13px;
      padding-left: 10px;
 }
- .mails{    
-display: flex;
-    justify-content: space-between;
-    overflow: hidden;
-    border-bottom: 1px solid #f1f1f1ab;
+ .mails{
+     display: flex;
+     justify-content: space-between;
+     overflow: hidden;
+     border-bottom: 1px solid #f1f1f1ab;
 }
  .mails p{
      display: inline;
@@ -243,7 +243,6 @@ display: flex;
  .mails h6{
      font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
 }
-
  .social img{
      width: 20px;
 }
@@ -258,11 +257,11 @@ display: flex;
 }
  .mails h6{
      font-weight: 400;
-font-size: 15px;
+     font-size: 15px;
 }
  .mails h4{
-    margin: 4px 40px;
-    font-size: 11px;
+     margin: 4px 40px;
+     font-size: 11px;
 }
  .social img{
      width: 20px;
@@ -273,28 +272,29 @@ font-size: 15px;
  .ml30{
      margin-left: 100px;
 }
-.ltc{
-color: #c1c1c1;
-font-size: 14px;
+ .ltc{
+     color: #c1c1c1;
+     font-size: 14px;
 }
-span.material-icons {
-    font-size: 20px;
-    color: #a0989b;
+ span.material-icons {
+     font-size: 20px;
+     color: #a0989b;
 }
-ltc2{
-color: #a0989b;
+ ltc2{
+     color: #a0989b;
 }
-.cml{
-vertical-align: bottom;
-    border-radius: 50%;
+ .cml{
+     vertical-align: bottom;
+     border-radius: 50%;
 }
-.m10{
-    margin: 15px;
+ .m10{
+     margin: 15px;
 }
-.pink{
-    background: #fbdfe3;
-    border-radius: 0px 20px 20px 0px;
+ .pink{
+     background: #fbdfe3;
+     border-radius: 0px 20px 20px 0px;
 }
-.red{
-color: red !important;
+ .red{
+     color: red !important;
 }
+ 

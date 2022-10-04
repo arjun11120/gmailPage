@@ -36,7 +36,7 @@ html,body{
      position: relative;
 }
  .middle-header input{
-     width: 80%;
+     width: 100%;
      border-radius: 5px;
      border:1px solid whitesmoke;
      padding: 14px 14px 14px 46px;
@@ -53,11 +53,11 @@ html,body{
      left: 55px;
 }
  .option{
-     opacity: 0.6;
+    opacity: 0.6;
     width: 15px;
     height: 16px;
     top: 15px;
-    right: 130px;
+    right: 15px;
     position: absolute;
 }
  .right-header{

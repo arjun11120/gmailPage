@@ -9,14 +9,16 @@ html,body{
  .clear{
      clear: both;
 }
- .header{
-     display: flex;
+.dflex{
+     display:flex;
+}
+.aic{
      align-items: center;
+}
+ .header{
      border-bottom: 2px solid whitesmoke;
 }
  .left-header {
-     display: flex;
-     align-items: center;
      padding: 0px 10px;
 }
  .left-header img{
@@ -29,17 +31,16 @@ html,body{
 }
  .middle-header{
      margin: 6px;
-     display: flex;
      flex: 70%;
      padding-left:40px;
+     position: relative;
 }
  .middle-header input{
      width: 80%;
      border-radius: 5px;
      border:1px solid whitesmoke;
-     padding: 14px;
-     font-size: 16px;
-     padding-left: 46px;
+     padding: 14px 14px 14px 46px;
+     font-size: 15px;
 }
  .middle-header input:focus{
      outline: none;
@@ -48,21 +49,19 @@ html,body{
      width: 20px;
      opacity: .7;
      position: absolute;
-     top: 20px;
-     left: 242px;
+     top: 15px;
+     left: 55px;
 }
  .option{
      opacity: 0.6;
-     position: relative;
-     width: 19px;
-     height: 20px;
-     top: 15px;
-     right: 27px;
+    width: 15px;
+    height: 16px;
+    top: 15px;
+    right: 130px;
+    position: absolute;
 }
  .right-header{
-     display: flex;
      align-items: center;
-     margin-right: 25px;
 }
  .right-header img{
      padding: 10px;
@@ -81,7 +80,6 @@ html,body{
 }
  .main-sub .cmp-button{
      padding: 0px 18px;
-     display: flex;
      border-radius: 44px;
      background-color: white;
      box-shadow: 0px 2px 2px 1px rgba(82, 75, 75, 0.5);
@@ -91,7 +89,6 @@ html,body{
  img.plus-image{
      vertical-align: middle;
      padding: 8px;
-     float: left;
      background: white;
      width: 30px;
 }
@@ -110,6 +107,7 @@ html,body{
 }
  .main-sub{
      padding: 15px 4px;
+     border-right: 1px solid #eaebed;
 }
  .main-sub li{
      padding-left: 20px;
@@ -117,7 +115,6 @@ html,body{
 }
  .side-box{
      padding: 15px 0px;
-     height: 200px;
      opacity: .7;
      overflow-y: hidden;
 }
@@ -165,15 +162,13 @@ html,body{
  .hang-content{
      padding: 10px;
 }
- .main-body{
-     display: flex;
-}
  .left-bar{
      float: left;
-     padding: 10px 20px;
+     padding: 10px 15px;
 }
  .right-bar{
      float: right;
+     margin-top: 10px;
 }
  .right-bar img{
      width: 10px;
@@ -188,22 +183,18 @@ html,body{
      padding: 10px;
 }
  .categories{
-     padding: 0px 15px;
      box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 1px;
 }
  .categories .primary{
-     display: inline-block;
-     width: 300px;
+     width: 30%;
      color: red;
      border-bottom: 3px solid red;
 }
  .categories .social{
-     display: inline-block;
-     width: 300px;
+     width: 30%;
 }
  .categories .promotion{
-     display: inline-block;
-     width: 360px;
+     width: 30%;
 }
  .categories p{
      display: inline;
@@ -214,22 +205,20 @@ html,body{
  .mails{
      display: flex;
      justify-content: space-between;
-     overflow: hidden;
-     border-bottom: 1px solid #f1f1f1ab;
 }
  .mails p{
      display: inline;
-     vertical-align: super;
+     font-family: system-ui;
 }
  .mails input{
-     vertical-align: super;
+         vertical-align: middle;
 }
  .content-wrapper{
-     width: 1037px;
-     float: left;
+      flex: 2;
+      border-right: 1px solid #eaebed;
 }
  .addon-services{
-     margin-left: 15px;
+     margin: 10px;
 }
  .addon-services img{
      display: block;
@@ -242,22 +231,11 @@ html,body{
 }
  .mails h6{
      font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+     font-weight: 400;
+     font-size: 15px;
 }
  .social img{
      width: 20px;
-}
- .ml10{
-     margin-left: 10px;
-}
- .ml30{
-     margin-left: 100px;
-}
- .mails h6{
-     font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-}
- .mails h6{
-     font-weight: 400;
-     font-size: 15px;
 }
  .mails h4{
      margin: 4px 40px;
@@ -265,12 +243,6 @@ html,body{
 }
  .social img{
      width: 20px;
-}
- .ml10{
-     margin-left: 10px;
-}
- .ml30{
-     margin-left: 100px;
 }
  .ltc{
      color: #c1c1c1;
@@ -288,7 +260,8 @@ html,body{
      border-radius: 50%;
 }
  .m10{
-     margin: 15px;
+     padding: 10px 15px;
+    border-bottom: 1px solid #f1f1f1ab;
 }
  .pink{
      background: #fbdfe3;
@@ -296,5 +269,12 @@ html,body{
 }
  .red{
      color: red !important;
+         padding: 0px 12px;
 }
- 
+ .rfull{
+     flex:1;
+}
+.ml10{
+    vertical-align: middle;
+        margin-left: 10px;
+}
